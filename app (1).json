@@ -1,0 +1,36 @@
+{
+  "name": "mirror-leech-telegram-bot",
+  "description": "Official Repository: Telegram bot which can download torrents, mega, google drive, telegram file and direct links + all yt-dlp supported sites, then upload them to google drive or telegram cloud. This bot supports more features like zip or extract before upload, seed after upload using qBittorrent or aria2c and many more, read features below.",
+  "logo": "https://avatars.githubusercontent.com/u/77075674?v=4",
+  "keywords": [
+    "telegram",
+    "mirror",
+    "googledrive"
+  ],
+  "repository": "https://github.com/anasty17/mirror-leech-telegram-bot",
+  "success_url": "https://github.com/anasty17/mirror-leech-telegram-bot",
+  "website": "https://github.com/anasty17/mirror-leech-telegram-bot",  
+  "env": {
+    "CONFIG_FILE_URL": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_EMAIL": {
+      "description": "",
+      "value": "",
+      "required": true
+    }
+  },
+  "stack": "container"
+}
